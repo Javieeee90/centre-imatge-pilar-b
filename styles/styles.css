@@ -24,12 +24,11 @@ body {
 }
 
 header {
-    padding-bottom: 3rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 ul#rrss {
@@ -41,7 +40,7 @@ ul#rrss {
 }
 
 ul#rrss path {
-    fill: var(--base-color);
+    fill: white;
 }
 
 ul#rrss li {
