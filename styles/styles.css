@@ -91,9 +91,8 @@ section#servicios ul {
 }
 
 .card {
-    border-top: 3px solid  #2d2727;
-    border-bottom: 3px solid  #2d2727;
-    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 70%);
     width: 18rem;
     margin: 0.2rem;
     }
