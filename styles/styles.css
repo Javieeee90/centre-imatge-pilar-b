@@ -43,6 +43,11 @@ ul#rrss path {
     fill: white;
 }
 
+ul#rrss a:focus path, 
+ul#rrss a:hover path {
+    fill: var(--secondary-color);
+}
+
 ul#rrss li {
     width:3rem;
     list-style-type: none;
