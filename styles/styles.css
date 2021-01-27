@@ -80,7 +80,8 @@ section#servicios {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    
+    border-top: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
 }
 
 section#servicios ul {
