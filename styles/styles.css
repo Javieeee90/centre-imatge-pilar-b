@@ -60,15 +60,27 @@ div#menu-hamburguesa {
     right: 1.5rem;
 }
 
-h2 {
-    color: #ffffff;
-    flex: 1 100%;
-    font-size: 3rem
-
+section#nosotros {
+    padding: 1rem;
 }
 
-section#servicios h2 {
+h2 {
     margin-bottom: 1.5rem;
+    font-size: 3rem;
+    color: #e76600;
+}
+
+section#nosotros p {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: justify;
+    color: #ffffff;
+}
+
+
+section#servicios h2 {
+    color: black;
+    flex: 1 100%;
 }
 
 section#servicios {
