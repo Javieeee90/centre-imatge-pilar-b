@@ -57,14 +57,13 @@ div#menu-hamburguesa {
 }
 
 h2 {
-    color: white;
-    text-align: center;
+    color: #ffffff;
+    flex: 1 100%;
     font-size: 3rem
 
 }
 
 section#servicios h2 {
-    flex: 1 100%;
     margin-bottom: 1.5rem;
 }
 
@@ -92,10 +91,9 @@ section#servicios ul {
 }
 
 .card {
-    border-top: 2px solid var(--base-color);
-    border-bottom: 2px solid var(--base-color);
+    border-top: 3px solid  #2d2727;
+    border-bottom: 3px solid  #2d2727;
     border-radius: 1rem;
-    
     width: 18rem;
     margin: 0.2rem;
     }
@@ -112,6 +110,6 @@ li.card a {
     display: inline-block;
     
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #ffffff;
     font-size: 2.7rem;
 }
