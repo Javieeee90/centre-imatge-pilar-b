@@ -19,12 +19,7 @@
 }
 
 html {
-    background-color:black;
     color: var(--base-color);
-}
-
-body {
-    margin-top: 1.5rem;
 }
 
 header {
@@ -32,7 +27,8 @@ header {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 1.5rem;
+    padding: 1.5rem 0;
+    background-color:black;
 }
 
 ul#rrss {
@@ -107,6 +103,10 @@ div#menu-hamburguesa {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+main {
+    background-color: white;
 }
 
 section#nosotros {
