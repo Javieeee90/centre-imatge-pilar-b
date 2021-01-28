@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 :root {
     --base-color: #ffcccc;
@@ -159,7 +161,7 @@ section#nosotros p {
 
 section#servicios h2 {
     flex: 1 100%;
-    color: #f7fb00;
+    color: #e76600;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     font-weight: lighter;
@@ -203,6 +205,38 @@ section#foto1 {
     padding: 3rem;
 }
 
+section#tahe {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section#tahe p {
+    font-size: 3rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Caveat', cursive;
+}
+
+section#tahe a {
+    font-size: 4rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
 div#covid p {
     font-size: 2rem;
     color: white;
@@ -218,7 +252,7 @@ div#covid p {
 
 div#covid {
     padding: 2rem;
-    background-color: rgb(46, 74, 199);
+    background-color: rgb(222 21 99);
 }
 
 .card {
