@@ -390,8 +390,15 @@ section#servicios figure img {
 }
 
 section#address {
-    background-color: #000000;
+    background-image: url(../img/salon-centro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
     padding: 2rem 0;
+    min-height: 27vh;
 }
 
 section#address h2 {
@@ -416,4 +423,11 @@ section#address a {
     font-family: 'Montserrat';
     font-size: 2rem;
     color: #e76600;
+}
+
+div.box {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #000000da;
+    padding: 3rem 2rem;
 }
