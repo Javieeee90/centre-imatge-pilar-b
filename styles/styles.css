@@ -343,11 +343,13 @@ main#tahe-productos p {
 section#marca {
     background-color: rgb(150 119 146);
     padding-bottom: 2rem;
+    height: 40vh;
 }
 
 section#blog {
     background-color: #e7b6b6;
     padding: 2rem;
+    height: 35vh;
 }
 
 section#blog a {
