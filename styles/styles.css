@@ -88,11 +88,11 @@ div#menu-hamburguesa {
     background-image: url('../img/foto-menu-desplegable.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     padding: 1.5rem;
     padding-top: 5rem;
     height: 100vh;
-    width: 30rem;
+    width: 250px;
     border-left: 5px solid #d8b251;
 }
 
