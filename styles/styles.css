@@ -142,6 +142,10 @@ section#valores {
     font-family: 'Caveat', cursive;
 }
 
+ul#rrss .current-page path {
+    fill: #e76600;
+}
+
 h2 {
     margin-bottom: 1.5rem;
     font-size: 2rem;
@@ -268,12 +272,40 @@ section#servicios figure img {
     border-radius: 0.5rem;
 }
 
+section#address {
+    background-color: #000000;
+    padding: 2rem 0;
+}
+
+section#address h2 {
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #e76600;
+    margin-bottom: 0;
+}
+
+section#address p {
+    font-size: 2rem;
+    font-family: 'Playfair Display';
+    text-align: center;
+    color: white;
+}
+
+section#address a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: #e76600;
+}
+
 li.card a {
     height: 100%;
     width: 100%;
     text-align: center;
     display: inline-block;
-    
     text-decoration: none;
     color: #ffffff;
     font-size: 2.7rem;
