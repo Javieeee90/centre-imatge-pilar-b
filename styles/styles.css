@@ -122,6 +122,21 @@ section#valores {
     background-color:#f1dca7;
 }
 
+@media (min-width : 769px) {
+    section#valores {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .valores-elemento {
+        display: inline-block;
+        flex: 1;
+    }
+}
+
+
 .valores-elemento {
     margin: 0 6rem;
 }
@@ -196,6 +211,37 @@ section#servicios ul {
     padding: 0;
     width: 70%;
     height: 50%;
+}
+
+.card {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(243 240 237 / 32%);
+    margin: 0.6rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card p {
+    color: #ffffff;
+    font-size: 2.7rem;
+}
+
+@media (min-width : 769px) {
+    section#servicios ul {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .card {
+        flex: 1 30%;
+        height: 100%;
+    }
+
 }
 
 section#foto1 {
@@ -305,14 +351,6 @@ div#covid {
     background-color: rgb(222 21 99);
 }
 
-.card {
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-radius: 5px;
-    background-color: rgb(243 240 237 / 32%);
-    margin: 0.6rem;
-}
-
 section#servicios figure img {
     height: 100%;
     border-radius: 0.5rem;
@@ -345,14 +383,4 @@ section#address a {
     font-family: 'Montserrat';
     font-size: 2rem;
     color: #e76600;
-}
-
-li.card a {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 2.7rem;
 }
