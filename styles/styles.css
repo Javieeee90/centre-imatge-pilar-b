@@ -136,10 +136,10 @@ section#valores {
 
 .valores-elemento h2 {
     margin-bottom: 0.5rem;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #000000;
-    font-family: 'Playfair Display';
+    font-family: 'Caveat', cursive;
 }
 
 h2 {
@@ -161,7 +161,7 @@ section#nosotros p {
 
 section#servicios h2 {
     flex: 1 100%;
-    color: #e76600;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     font-weight: lighter;
@@ -256,7 +256,9 @@ div#covid {
 }
 
 .card {
-    border: 1px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 5px;
     background-color: rgb(243 240 237 / 32%);
     margin: 0.6rem;
 }
