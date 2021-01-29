@@ -239,6 +239,8 @@ section#servicios ul {
     height: 50%;
 }
 
+
+
 .card {
     border-left: 2px solid #feff00;
     border-right: 2px solid #feff00;
@@ -280,6 +282,19 @@ section#servicios ul {
     }
 }
 
+@media (min-width : 769px) {
+    section#tips {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    section#tips section {
+        flex: 1;
+    }
+}
+
 section#foto1 {
     background-image: url("../img/foto-pilar-barbudo-gaussiano.png");
     background-position: center;
@@ -290,6 +305,32 @@ section#foto1 {
     align-items: center;
     justify-content: space-around;
     padding: 3rem;
+}
+
+section#tips h2 {
+    font-family: 'Playfair Display';
+    font-size: 2.5rem;
+}
+
+section#tips p {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    height: 5rem;
+}
+
+section#tips img{
+    width: 100%;
+}
+
+section#tips section {
+    margin-bottom: 3rem;
+}
+
+.tip-content {
+    margin: 1.5rem 0;
+    padding: 0 3rem;
 }
 
 section#tahe {
