@@ -181,10 +181,10 @@ ul#rrss .current-page path {
 
 h2 {
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: #000000;
-    font-family: 'Playfair Display';
+    font-family: 'Caveat', cursive;
 }
 
 section#nosotros p {
