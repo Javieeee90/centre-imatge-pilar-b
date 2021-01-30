@@ -218,7 +218,6 @@ section#servicios {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 400px;
     padding: 1rem;
     background-color: black;
     background-image: url("../img/background-servicios.png");
@@ -237,44 +236,54 @@ section#servicios ul {
 }
 
 .card {
-    border-left: 2px solid #feff00;
-    border-right: 2px solid #feff00;
+    border-top: 2px solid #feff00;
+    border-bottom: 2px solid #feff00;
     border-radius: 5px;
-    background-color: rgb(243 240 237 / 32%);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0.6rem;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
+    padding: 3rem;
+    width: 80%;
 }
 
 .card p {
     color: #feff00;
-    font-size: 2.7rem;
+    font-size: 3rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    border-top: 2px solid #d8b251;
+    border-bottom: 2px solid #d8b251;
+}
+
+.card:hover p {
+    color: #d8b251;
+    font-family: 'Caveat', cursive;
+    font-size: 2.8rem;
 }
 
 @media (min-width : 769px) {
+    section#servicios {
+        padding: 8rem 0;
+    }
+
     section#servicios ul {
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-around;
+        width: 80%;
     }
 
     .card {
-        flex: 1 30%;
+        flex: 1;
         height: 100%;
+        width: 50%;
     }
 
-    .card:hover {
-        cursor: pointer;
-        border-left: 2px solid rgb(243, 240, 237);
-        border-right: 2px solid  rgb(243, 240, 237);
-        background-color: rgb(254, 255, 0, 0.32);
-    }
-
-    .card:hover p{
-        color: rgb(243, 240, 237);
-    }
 }
 
 @media (min-width : 769px) {
