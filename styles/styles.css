@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 :root {
     --base-color: #ffcccc;
@@ -307,6 +305,10 @@ section#foto1 {
     padding: 3rem;
 }
 
+section#tips {
+    background-color: #ffffff;
+}
+
 section#tips h2 {
     font-family: 'Playfair Display';
     font-size: 2.5rem;
@@ -324,13 +326,8 @@ section#tips img{
     width: 100%;
 }
 
-section#tips section {
-    margin-bottom: 3rem;
-}
-
 .tip-content {
-    margin: 1.5rem 0;
-    padding: 0 3rem;
+    padding: 3rem;
 }
 
 section#tahe {
