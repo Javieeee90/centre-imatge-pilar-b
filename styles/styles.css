@@ -212,7 +212,6 @@ section#servicios h2 {
     font-family: 'Fredericka the Great', cursive;
 }
 
-
 section#servicios {
     display: flex;
     flex-flow: row wrap;
@@ -236,8 +235,6 @@ section#servicios ul {
     width: 70%;
     height: 50%;
 }
-
-
 
 .card {
     border-left: 2px solid #feff00;
@@ -477,4 +474,22 @@ div.box {
     border-radius: 10px;
     background-color: #000000da;
     padding: 3rem 2rem;
+}
+
+section#corte {
+    height: 100vh;
+    background-color: #feff00;
+    font-size: 5rem;
+}
+
+section#tratamientos {
+    height: 100vh;
+    background-color: aqua;
+    font-size: 5rem;
+}
+
+section#color {
+    height: 100vh;
+    background-color: chartreuse;
+    font-size: 5rem;
 }
